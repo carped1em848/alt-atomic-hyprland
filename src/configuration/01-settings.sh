@@ -12,8 +12,8 @@ cp /src/configuration/user_exec/libexec/* /usr/libexec/
 
 # Неожиданно Alt linux в /var/lib/openvpn/dev записывает устройство urandom
 # устройства запрещено включать в коммит, только файлы и сим-линки
-rm -f /var/lib/openvpn/dev/urandom
-ln -s /dev/urandom /var/lib/openvpn/dev/urandom
+#rm -f /var/lib/openvpn/dev/urandom
+#ln -s /dev/urandom /var/lib/openvpn/dev/urandom
 
 # Включаем сервисы
 systemctl --global enable flatpak-install.service
