@@ -84,6 +84,8 @@ HYPRLAND_PACKAGES=(
   mako
   xdg-desktop-portal-hyprland
   thunar
+  NetworkManager-tui
+  ly
 )
 
 
