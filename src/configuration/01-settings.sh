@@ -25,7 +25,7 @@ systemctl enable wsdd
 
 
 # Включаем создание домашних папок
-sed -i 's/^[[:space:]]*enabled=false/enabled=True/i' /etc/xdg/user-dirs.conf
+#sed -i 's/^[[:space:]]*enabled=false/enabled=True/i' /etc/xdg/user-dirs.conf
 
 # Синхронизируем файлы
 rsync -av --progress /src/source/configuration/etc/ /etc/
