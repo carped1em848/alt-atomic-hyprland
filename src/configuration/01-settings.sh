@@ -16,7 +16,7 @@ cp /src/configuration/user_exec/libexec/* /usr/libexec/
 #ln -s /dev/urandom /var/lib/openvpn/dev/urandom
 
 # Включаем сервисы
-systemctl --global enable flatpak-install.service
+#systemctl --global enable flatpak-install.service
 systemctl --global enable pipewire{,-pulse}{,.socket} wireplumber
 systemctl enable bluetooth
 systemctl enable ly
