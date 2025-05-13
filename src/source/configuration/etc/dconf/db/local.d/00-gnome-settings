@@ -1,0 +1,45 @@
+[org/gnome/desktop/default-applications/terminal]
+exec='ptyxis'
+
+[org/gnome/shell]
+favorite-apps=['org.gnome.TextEditor.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Software.desktop', 'org.telegram.desktop']
+enabled-extensions=['appindicatorsupport@rgcjonas.gmail.com', 'dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx']
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/gnome/amber-l.jxl'
+picture-uri-dark='file:///usr/share/backgrounds/gnome/amber-d.jxl'
+
+[org/gnome/software]
+download-updates=false
+allow-updates=false
+allow-system-install=false
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('xkb', 'ru')]
+
+[org/gnome/desktop/interface]
+gtk-theme='Adwaita-dark'
+color-scheme='prefer-dark'
+font-name='JetBrains Mono 11'
+document-font-name='JetBrains Mono 11'
+monospace-font-name='FiraCode Nerd Font 12'
+font-antialiasing='grayscale'
+font-hinting='full'
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+
+[org/gnome/shell/extensions/dash-to-dock]
+apply-custom-theme=true
+
+[org/gnome/Ptyxis]
+default-profile-uuid='f91d440d07cd15857f91abf0677f7d3c'
+profile-uuids=['f91d440d07cd15857f91abf0677f7d3c']
+
+[org/gnome/Ptyxis/Profiles/f91d440d07cd15857f91abf0677f7d3c]
+custom-command='/bin/zsh'
+login-shell=false
+use-custom-command=true
+
+[org/gnome/mutter]
+center-new-windows=true
